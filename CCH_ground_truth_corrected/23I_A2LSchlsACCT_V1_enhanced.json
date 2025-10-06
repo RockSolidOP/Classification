@@ -1,0 +1,3662 @@
+{
+  "document": "23I_A2LSchlsACCT_V1.PDF",
+  "config": "forms_config_enhanced",
+  "total_pages": 731,
+  "pages": [
+    {
+      "page": 1,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 2,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 3,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 4,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 5,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 6,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 7,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 8,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 9,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 10,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 11,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 12,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 13,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 14,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 15,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 16,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 17,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 18,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 19,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 20,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 21,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 22,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 23,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 24,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 25,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 26,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 27,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 28,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 29,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 30,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 31,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 32,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 33,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 34,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 35,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 36,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 37,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 38,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 39,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 40,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 41,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 42,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 43,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 44,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 45,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 46,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 47,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 48,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 49,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 50,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 51,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 52,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 53,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 54,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 55,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 56,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 57,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 58,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 59,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 60,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 61,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 62,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 63,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 64,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 65,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 66,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 67,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 68,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 69,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 70,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 71,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 72,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 73,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 74,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 75,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 76,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 77,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 78,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 79,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 80,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 81,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 82,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 83,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 84,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 85,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 86,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_4"
+    },
+    {
+      "page": 87,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 88,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 89,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 90,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 91,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 92,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 93,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 94,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 95,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 96,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 97,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 98,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 99,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 100,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 101,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 102,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 103,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 104,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 105,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 106,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 107,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 108,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 109,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 110,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 111,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 112,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 113,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 114,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 115,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 116,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 117,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 118,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 119,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 120,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 121,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 122,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 123,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 124,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 125,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 126,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 127,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 128,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 129,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 130,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 131,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 132,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 133,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 134,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 135,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 136,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 137,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 138,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 139,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 140,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 141,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 142,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 143,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 144,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 145,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 146,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 147,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 148,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 149,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 150,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 151,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 152,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 153,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 154,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 155,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 156,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 157,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 158,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 159,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 160,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 161,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 162,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 163,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 164,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 165,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 166,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 167,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 168,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 169,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 170,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 171,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 172,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 173,
+      "family": "8582",
+      "label": "Form_8582_Pg_2"
+    },
+    {
+      "page": 174,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 175,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 176,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 177,
+      "family": "8582",
+      "label": "Form_8582_Pg_2"
+    },
+    {
+      "page": 178,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 179,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 180,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 181,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 182,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 183,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 184,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 185,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 186,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_2"
+    },
+    {
+      "page": 187,
+      "family": "6251",
+      "label": "Form_6251_PG_1"
+    },
+    {
+      "page": 188,
+      "family": "1040",
+      "label": "1040_Schedule_E_PG_2"
+    },
+    {
+      "page": 189,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 190,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 191,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 192,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 193,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 194,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 195,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 196,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 197,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 198,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 199,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 200,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 201,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 202,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 203,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 204,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 205,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 206,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 207,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 208,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 209,
+      "family": "1040",
+      "label": "1040_Schedule_D_PG_1"
+    },
+    {
+      "page": 210,
+      "family": "1040",
+      "label": "1040_Schedule_D_PG_2"
+    },
+    {
+      "page": 211,
+      "family": "8949",
+      "label": "8949_PG_1"
+    },
+    {
+      "page": 212,
+      "family": "8949",
+      "label": "8949_PG_2"
+    },
+    {
+      "page": 213,
+      "family": "8949",
+      "label": "8949_PG_2"
+    },
+    {
+      "page": 214,
+      "family": "1040",
+      "label": "1040_Schedule_D_PG_1"
+    },
+    {
+      "page": 215,
+      "family": "1040",
+      "label": "1040_Schedule_D_PG_2"
+    },
+    {
+      "page": 216,
+      "family": "8949",
+      "label": "8949_PG_1"
+    },
+    {
+      "page": 217,
+      "family": "8949",
+      "label": "8949_PG_2"
+    },
+    {
+      "page": 218,
+      "family": "8949",
+      "label": "8949_PG_2"
+    },
+    {
+      "page": 219,
+      "family": "1040",
+      "label": "1040_Schedule_E_PG_1"
+    },
+    {
+      "page": 220,
+      "family": "1040",
+      "label": "1040_Schedule_E_PG_1"
+    },
+    {
+      "page": 221,
+      "family": "1040",
+      "label": "1040_Schedule_E_PG_1"
+    },
+    {
+      "page": 222,
+      "family": "1040",
+      "label": "1040_Schedule_E_PG_2"
+    },
+    {
+      "page": 223,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 224,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 225,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 226,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 227,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 228,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 229,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 230,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 231,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 232,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 233,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 234,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 235,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 236,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 237,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 238,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 239,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 240,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 241,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 242,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 243,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 244,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 245,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 246,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 247,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 248,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 249,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 250,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 251,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 252,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 253,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 254,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 255,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 256,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 257,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 258,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 259,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_3"
+    },
+    {
+      "page": 260,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_3"
+    },
+    {
+      "page": 261,
+      "family": "CAL_RENTAL_ROYALTY_INC",
+      "label": "CAL_RENTAL_ROYALTY_INC_STMT"
+    },
+    {
+      "page": 262,
+      "family": "CAL_RENTAL_ROYALTY_INC",
+      "label": "CAL_RENTAL_ROYALTY_INC_STMT"
+    },
+    {
+      "page": 263,
+      "family": "CAL_RENTAL_ROYALTY_INC",
+      "label": "CAL_RENTAL_ROYALTY_INC_STMT"
+    },
+    {
+      "page": 264,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 265,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 266,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 267,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 268,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 269,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 270,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 271,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 272,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 273,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 274,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 275,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 276,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 277,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 278,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 279,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 280,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 281,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 282,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 283,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 284,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 285,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 286,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 287,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 288,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 289,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 290,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 291,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 292,
+      "family": "1040",
+      "label": "1040_Schedule_F"
+    },
+    {
+      "page": 293,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 294,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 295,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 296,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 297,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 298,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 299,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 300,
+      "family": "1040",
+      "label": "1040_Schedule_F"
+    },
+    {
+      "page": 301,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 302,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 303,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 304,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 305,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 306,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 307,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 308,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 309,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 310,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 311,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 312,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 313,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 314,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 315,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 316,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 317,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 318,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 319,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 320,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 321,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 322,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 323,
+      "family": "CAL_SCHED_D",
+      "label": "CAL_SCHED_D_PG_2"
+    },
+    {
+      "page": 324,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 325,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 326,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 327,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 328,
+      "family": "8582",
+      "label": "Form_8582_Pg_3"
+    },
+    {
+      "page": 329,
+      "family": "8582",
+      "label": "Form_8582_Pg_3"
+    },
+    {
+      "page": 330,
+      "family": "8582",
+      "label": "Form_8582_Pg_3"
+    },
+    {
+      "page": 331,
+      "family": "8582",
+      "label": "Form_8582_Pg_3"
+    },
+    {
+      "page": 332,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 333,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 334,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 335,
+      "family": "4797",
+      "label": "4797_PG_1"
+    },
+    {
+      "page": 336,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 337,
+      "family": "4797",
+      "label": "4797_PG_1"
+    },
+    {
+      "page": 338,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 339,
+      "family": "6251",
+      "label": "Form_6251_PG_1"
+    },
+    {
+      "page": 340,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 341,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 342,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 343,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 344,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 345,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 346,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 347,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 348,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 349,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 350,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 351,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 352,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 353,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 354,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 355,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 356,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 357,
+      "family": "6251",
+      "label": "6251_PFT_LOSS"
+    },
+    {
+      "page": 358,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 359,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 360,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 361,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 362,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 363,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 364,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 365,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 366,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 367,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 368,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 369,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 370,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 371,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 372,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 373,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 374,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 375,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 376,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 377,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 378,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 379,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 380,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 381,
+      "family": "4835",
+      "label": "4835"
+    },
+    {
+      "page": 382,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 383,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 384,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 385,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 386,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 387,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 388,
+      "family": "CAL_FARM_RENTAL_INCOME_EXPENSES",
+      "label": "CAL_FARM_RENTAL_INCOME_EXPENSES"
+    },
+    {
+      "page": 389,
+      "family": "CAL_FARM_RENTAL_INCOME_EXPENSES",
+      "label": "CAL_FARM_RENTAL_INCOME_EXPENSES"
+    },
+    {
+      "page": 390,
+      "family": "1040",
+      "label": "1040_Schedule_E_PG_2"
+    },
+    {
+      "page": 391,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 392,
+      "family": "1040",
+      "label": "1040_Schedule_E_PG_2"
+    },
+    {
+      "page": 393,
+      "family": "4952",
+      "label": "4952"
+    },
+    {
+      "page": 394,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 395,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 396,
+      "family": "CAL_PASS_ACT_LOSS_LIMIT_SLIDE_3",
+      "label": "CAL_PASS_ACT_LOSS_LIMIT_SLIDE_3"
+    },
+    {
+      "page": 397,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 398,
+      "family": "4797",
+      "label": "4797_PG_1"
+    },
+    {
+      "page": 399,
+      "family": "8582",
+      "label": "Form_8582_Pg_1"
+    },
+    {
+      "page": 400,
+      "family": "8582",
+      "label": "Form_8582_Pg_2"
+    },
+    {
+      "page": 401,
+      "family": "8582",
+      "label": "Form_8582_Pg_3"
+    },
+    {
+      "page": 402,
+      "family": "8582",
+      "label": "Form_8582_Pg_1"
+    },
+    {
+      "page": 403,
+      "family": "8582",
+      "label": "Form_8582_Pg_1"
+    },
+    {
+      "page": 404,
+      "family": "8582",
+      "label": "Form_8582_Pg_1"
+    },
+    {
+      "page": 405,
+      "family": "8582",
+      "label": "Form_8582_Pg_1"
+    },
+    {
+      "page": 406,
+      "family": "8582",
+      "label": "Form_8582_Pg_2"
+    },
+    {
+      "page": 407,
+      "family": "8582",
+      "label": "Form_8582_Pg_3"
+    },
+    {
+      "page": 408,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 409,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 410,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 411,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 412,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 413,
+      "family": "1040",
+      "label": "1040_Schedule_E_PG_2"
+    },
+    {
+      "page": 414,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 415,
+      "family": "1040",
+      "label": "1040_Schedule_E_PG_2"
+    },
+    {
+      "page": 416,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 417,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 418,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 419,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 420,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 421,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 422,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 423,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 424,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 425,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 426,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 427,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 428,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 429,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 430,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 431,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 432,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 433,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 434,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 435,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 436,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 437,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 438,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 439,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 440,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 441,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 442,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 443,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 444,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 445,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 446,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 447,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 448,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 449,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 450,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 451,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 452,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 453,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 454,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 455,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 456,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 457,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 458,
+      "family": "CAL_SCHED_D1",
+      "label": "CAL_SCHED_D1_PG_1"
+    },
+    {
+      "page": 459,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 460,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 461,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 462,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 463,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 464,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 465,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 466,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 467,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 468,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 469,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 470,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 471,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 472,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 473,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 474,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 475,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 476,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 477,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 478,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 479,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 480,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 481,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 482,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 483,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 484,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 485,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 486,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 487,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 488,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 489,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 490,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 491,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 492,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 493,
+      "family": "CAL_FARM_RENTAL_INCOME_EXPENSES",
+      "label": "CAL_FARM_RENTAL_INCOME_EXPENSES"
+    },
+    {
+      "page": 494,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 495,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 496,
+      "family": "1040",
+      "label": "1040_Schedule_A_NET_LOSS_STMT"
+    },
+    {
+      "page": 497,
+      "family": "ALT_Tax_Loss_WORKSHEET",
+      "label": "ALT_Tax_Loss_WORKSHEET"
+    },
+    {
+      "page": 498,
+      "family": "NOL_DEDUCTUION",
+      "label": "NOL_DEDUCTUION"
+    },
+    {
+      "page": 499,
+      "family": "1040",
+      "label": "1040_Schedule_D_STMT"
+    },
+    {
+      "page": 500,
+      "family": "1040",
+      "label": "1040_Schedule_D_STMT"
+    },
+    {
+      "page": 501,
+      "family": "1040",
+      "label": "1040_Schedule_D_STMT"
+    },
+    {
+      "page": 502,
+      "family": "1040",
+      "label": "1040_Schedule_D_STMT"
+    },
+    {
+      "page": 503,
+      "family": "1040",
+      "label": "1040_Schedule_D_STMT"
+    },
+    {
+      "page": 504,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 505,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 506,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 507,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 508,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 509,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 510,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 511,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 512,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 513,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 514,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 515,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 516,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 517,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 518,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 519,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 520,
+      "family": "NOL_DEDUCTUION",
+      "label": "NOL_DEDUCTUION"
+    },
+    {
+      "page": 521,
+      "family": "NOL_DEDUCTUION",
+      "label": "NOL_DEDUCTUION"
+    },
+    {
+      "page": 522,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 523,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 524,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 525,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 526,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 527,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 528,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 529,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 530,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 531,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 532,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 533,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 534,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 535,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 536,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 537,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 538,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 539,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 540,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 541,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 542,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 543,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 544,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 545,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 546,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 547,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 548,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 549,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 550,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 551,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 552,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 553,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 554,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 555,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 556,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 557,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 558,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 559,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 560,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 561,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 562,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 563,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 564,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 565,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_1"
+    },
+    {
+      "page": 566,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_2"
+    },
+    {
+      "page": 567,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_3"
+    },
+    {
+      "page": 568,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_4"
+    },
+    {
+      "page": 569,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_5"
+    },
+    {
+      "page": 570,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_6"
+    },
+    {
+      "page": 571,
+      "family": "CAL_SCHED_CA",
+      "label": "CAL_SCHED_CA_PG_1"
+    },
+    {
+      "page": 572,
+      "family": "CAL_SCHED_CA",
+      "label": "CAL_SCHED_CA_PG_2"
+    },
+    {
+      "page": 573,
+      "family": "CAL_SCHED_CA",
+      "label": "CAL_SCHED_CA_PG_3"
+    },
+    {
+      "page": 574,
+      "family": "CAL_SCHED_CA",
+      "label": "CAL_SCHED_CA_PG_4"
+    },
+    {
+      "page": 575,
+      "family": "CAL_SCHED_CA",
+      "label": "CAL_SCHED_CA_PG_5"
+    },
+    {
+      "page": 576,
+      "family": "CAL_SCHED_CA",
+      "label": "CAL_SCHED_CA_PG_6"
+    },
+    {
+      "page": 577,
+      "family": "CAL_SCHED_D",
+      "label": "CAL_SCHED_D_PG_1"
+    },
+    {
+      "page": 578,
+      "family": "CAL_SCHED_D",
+      "label": "CAL_SCHED_D_PG_2"
+    },
+    {
+      "page": 579,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 580,
+      "family": "CAL_SCHED_D1",
+      "label": "CAL_SCHED_D1_PG_1"
+    },
+    {
+      "page": 581,
+      "family": "CAL_SCHED_D1",
+      "label": "CAL_SCHED_D1_PG_2"
+    },
+    {
+      "page": 582,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_2"
+    },
+    {
+      "page": 583,
+      "family": "CAL_SCHED_D1",
+      "label": "CAL_SCHED_D1_PG_2"
+    },
+    {
+      "page": 584,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 585,
+      "family": "1040",
+      "label": "1040_Schedule_E_PG_2"
+    },
+    {
+      "page": 586,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 587,
+      "family": "1040",
+      "label": "1040_Schedule_E_PG_2"
+    },
+    {
+      "page": 588,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_1"
+    },
+    {
+      "page": 589,
+      "family": "8960",
+      "label": "8960_NET_LOSS_COMPUTATION"
+    },
+    {
+      "page": 590,
+      "family": "3526",
+      "label": "CAL_SCHED_3526"
+    },
+    {
+      "page": 591,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_1"
+    },
+    {
+      "page": 592,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_2"
+    },
+    {
+      "page": 593,
+      "family": "CAL_PASS_ACT_LOSS_LIMIT_SLIDE_3",
+      "label": "CAL_PASS_ACT_LOSS_LIMIT_SLIDE_3"
+    },
+    {
+      "page": 594,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_4"
+    },
+    {
+      "page": 595,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_4"
+    },
+    {
+      "page": 596,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_4"
+    },
+    {
+      "page": 597,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_4"
+    },
+    {
+      "page": 598,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_4"
+    },
+    {
+      "page": 599,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_1"
+    },
+    {
+      "page": 600,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_2"
+    },
+    {
+      "page": 601,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_3"
+    },
+    {
+      "page": 602,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_2"
+    },
+    {
+      "page": 603,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 604,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 605,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 606,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 607,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_2"
+    },
+    {
+      "page": 608,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 609,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 610,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 611,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 612,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 613,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_2"
+    },
+    {
+      "page": 614,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 615,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 616,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 617,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 618,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_2"
+    },
+    {
+      "page": 619,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 620,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 621,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 622,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 623,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_2"
+    },
+    {
+      "page": 624,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 625,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 626,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 627,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 628,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 629,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_2"
+    },
+    {
+      "page": 630,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 631,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 632,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 633,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 634,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_2"
+    },
+    {
+      "page": 635,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 636,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_2"
+    },
+    {
+      "page": 637,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 638,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 639,
+      "family": "4797",
+      "label": "4797_PG_1"
+    },
+    {
+      "page": 640,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 641,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 642,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 643,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 644,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 645,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 646,
+      "family": "CAL_RENTAL_ROYALTY_INC",
+      "label": "CAL_RENTAL_ROYALTY_INC_STMT"
+    },
+    {
+      "page": 647,
+      "family": "CAL_RENTAL_ROYALTY_INC",
+      "label": "CAL_RENTAL_ROYALTY_INC_STMT"
+    },
+    {
+      "page": 648,
+      "family": "CAL_RENTAL_ROYALTY_INC",
+      "label": "CAL_RENTAL_ROYALTY_INC_STMT"
+    },
+    {
+      "page": 649,
+      "family": "CAL_RENTAL_ROYALTY_INC",
+      "label": "CAL_RENTAL_ROYALTY_INC_STMT"
+    },
+    {
+      "page": 650,
+      "family": "CAL_RENTAL_ROYALTY_INC",
+      "label": "CAL_RENTAL_ROYALTY_INC_STMT"
+    },
+    {
+      "page": 651,
+      "family": "CAL_RENTAL_ROYALTY_INC",
+      "label": "CAL_RENTAL_ROYALTY_INC_STMT"
+    },
+    {
+      "page": 652,
+      "family": "CAL_RENTAL_ROYALTY_INC",
+      "label": "CAL_RENTAL_ROYALTY_INC_STMT"
+    },
+    {
+      "page": 653,
+      "family": "CAL_RENTAL_ROYALTY_INC",
+      "label": "CAL_RENTAL_ROYALTY_INC_STMT"
+    },
+    {
+      "page": 654,
+      "family": "CAL_RENTAL_ROYALTY_INC",
+      "label": "CAL_RENTAL_ROYALTY_INC_STMT"
+    },
+    {
+      "page": 655,
+      "family": "1040",
+      "label": "1040_Schedule_F"
+    },
+    {
+      "page": 656,
+      "family": "4835",
+      "label": "4835"
+    },
+    {
+      "page": 657,
+      "family": "4835",
+      "label": "4835"
+    },
+    {
+      "page": 658,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 659,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 660,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 661,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 662,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 663,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 664,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 665,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 666,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_3"
+    },
+    {
+      "page": 667,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_3"
+    },
+    {
+      "page": 668,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_2"
+    },
+    {
+      "page": 669,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 670,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 671,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 672,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 673,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 674,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 675,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 676,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 677,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 678,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 679,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 680,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 681,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 682,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 683,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 684,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 685,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 686,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 687,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 688,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 689,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 690,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 691,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 692,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 693,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 694,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 695,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 696,
+      "family": "CAL_SCHED_D",
+      "label": "CAL_SCHED_D_PG_1"
+    },
+    {
+      "page": 697,
+      "family": "CAL_SCHED_D",
+      "label": "CAL_SCHED_D_PG_2"
+    },
+    {
+      "page": 698,
+      "family": "CAL_SCHED_D1",
+      "label": "CAL_SCHED_D1_PG_1"
+    },
+    {
+      "page": 699,
+      "family": "CAL_SCHED_D1",
+      "label": "CAL_SCHED_D1_PG_2"
+    },
+    {
+      "page": 700,
+      "family": "CAL_SCHED_D1",
+      "label": "CAL_SCHED_D1_PG_2"
+    },
+    {
+      "page": 701,
+      "family": "3526",
+      "label": "CAL_SCHED_3526"
+    },
+    {
+      "page": 702,
+      "family": "CAL_PASS_ACT_LOSS_LIMIT_SLIDE_1",
+      "label": "CAL_PASS_ACT_LOSS_LIMIT_SLIDE_1"
+    },
+    {
+      "page": 703,
+      "family": "CAL_PASS_ACT_LOSS_LIMIT_SLIDE_3",
+      "label": "CAL_PASS_ACT_LOSS_LIMIT_SLIDE_3"
+    },
+    {
+      "page": 704,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_4"
+    },
+    {
+      "page": 705,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_4"
+    },
+    {
+      "page": 706,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_4"
+    },
+    {
+      "page": 707,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_4"
+    },
+    {
+      "page": 708,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_4"
+    },
+    {
+      "page": 709,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_1"
+    },
+    {
+      "page": 710,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_2"
+    },
+    {
+      "page": 711,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_3"
+    },
+    {
+      "page": 712,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 713,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 714,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 715,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 716,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 717,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 718,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 719,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 720,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 721,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 722,
+      "family": "NOL_DEDUCTUION",
+      "label": "NOL_DEDUCTUION"
+    },
+    {
+      "page": 723,
+      "family": "NOL_DEDUCTUION",
+      "label": "NOL_DEDUCTUION"
+    },
+    {
+      "page": 724,
+      "family": "1040",
+      "label": "1040_Schedule_D_PG_1"
+    },
+    {
+      "page": 725,
+      "family": "NOL_DEDUCTUION",
+      "label": "NOL_DEDUCTUION"
+    },
+    {
+      "page": 726,
+      "family": "CAL_SCHED_D1",
+      "label": "CAL_SCHED_D1_PG_1"
+    },
+    {
+      "page": 727,
+      "family": "8949",
+      "label": "8949_PG_2"
+    },
+    {
+      "page": 728,
+      "family": "4797",
+      "label": "4797_PG_1"
+    },
+    {
+      "page": 729,
+      "family": "CAL_SCHED_D1",
+      "label": "CAL_SCHED_D1_PG_1"
+    },
+    {
+      "page": 730,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 731,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    }
+  ]
+}

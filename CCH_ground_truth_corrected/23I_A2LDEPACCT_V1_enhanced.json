@@ -1,0 +1,267 @@
+{
+  "document": "23I_A2LDEPACCT_V1.PDF",
+  "config": "forms_config_enhanced",
+  "total_pages": 52,
+  "pages": [
+    {
+      "page": 1,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 2,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 3,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 4,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 5,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 6,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 7,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 8,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_4"
+    },
+    {
+      "page": 9,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 10,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 11,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 12,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 13,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 14,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 15,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_2"
+    },
+    {
+      "page": 16,
+      "family": "1040",
+      "label": "1040_Schedule_F"
+    },
+    {
+      "page": 17,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 18,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 19,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 20,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 21,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 22,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 23,
+      "family": "1040",
+      "label": "1040_Schedule_A_NET_LOSS_STMT"
+    },
+    {
+      "page": 24,
+      "family": "ALT_Tax_Loss_WORKSHEET",
+      "label": "ALT_Tax_Loss_WORKSHEET"
+    },
+    {
+      "page": 25,
+      "family": "1040",
+      "label": "1040_Schedule_D_STMT"
+    },
+    {
+      "page": 26,
+      "family": "1040",
+      "label": "1040_Schedule_D_STMT"
+    },
+    {
+      "page": 27,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 28,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 29,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 30,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_1"
+    },
+    {
+      "page": 31,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_2"
+    },
+    {
+      "page": 32,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_3"
+    },
+    {
+      "page": 33,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_4"
+    },
+    {
+      "page": 34,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_5"
+    },
+    {
+      "page": 35,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_6"
+    },
+    {
+      "page": 36,
+      "family": "CAL_SCHED_CA",
+      "label": "CAL_SCHED_CA_PG_1"
+    },
+    {
+      "page": 37,
+      "family": "CAL_SCHED_CA",
+      "label": "CAL_SCHED_CA_PG_2"
+    },
+    {
+      "page": 38,
+      "family": "CAL_SCHED_CA",
+      "label": "CAL_SCHED_CA_PG_3"
+    },
+    {
+      "page": 39,
+      "family": "CAL_SCHED_CA",
+      "label": "CAL_SCHED_CA_PG_4"
+    },
+    {
+      "page": 40,
+      "family": "CAL_SCHED_CA",
+      "label": "CAL_SCHED_CA_PG_5"
+    },
+    {
+      "page": 41,
+      "family": "CAL_SCHED_CA",
+      "label": "CAL_SCHED_CA_PG_6"
+    },
+    {
+      "page": 42,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_1"
+    },
+    {
+      "page": 43,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_2"
+    },
+    {
+      "page": 44,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_3"
+    },
+    {
+      "page": 45,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_2"
+    },
+    {
+      "page": 46,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 47,
+      "family": "1040",
+      "label": "1040_Schedule_F"
+    },
+    {
+      "page": 48,
+      "family": "1040",
+      "label": "1040_Schedule_F"
+    },
+    {
+      "page": 49,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 50,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_1"
+    },
+    {
+      "page": 51,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_2"
+    },
+    {
+      "page": 52,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_3"
+    }
+  ]
+}

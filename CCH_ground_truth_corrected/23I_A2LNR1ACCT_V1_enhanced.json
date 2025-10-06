@@ -1,0 +1,67 @@
+{
+  "document": "23I_A2LNR1ACCT_V1.PDF",
+  "config": "forms_config_enhanced",
+  "total_pages": 12,
+  "pages": [
+    {
+      "page": 1,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 2,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 3,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 4,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 5,
+      "family": "CAL_RES_INC_TAX",
+      "label": "CAL_RES_INC_TAX_PG_4"
+    },
+    {
+      "page": 6,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 7,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 8,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 9,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 10,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 11,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 12,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    }
+  ]
+}

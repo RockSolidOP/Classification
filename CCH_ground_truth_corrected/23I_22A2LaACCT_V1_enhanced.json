@@ -1,0 +1,862 @@
+{
+  "document": "23I_22A2LaACCT_V1.PDF",
+  "config": "forms_config_enhanced",
+  "total_pages": 171,
+  "pages": [
+    {
+      "page": 1,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 2,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 3,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 4,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 5,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 6,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 7,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 8,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 9,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 10,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 11,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 12,
+      "family": "GENRAL",
+      "label": "TAX_RETURN_CARRY_OVERS"
+    },
+    {
+      "page": 13,
+      "family": "GENRAL",
+      "label": "TAX_RETURN_CARRY_OVERS"
+    },
+    {
+      "page": 14,
+      "family": "GENRAL",
+      "label": "TAX_RETURN_CARRY_OVERS"
+    },
+    {
+      "page": 15,
+      "family": "GENRAL",
+      "label": "TAX_RETURN_CARRY_OVERS"
+    },
+    {
+      "page": 16,
+      "family": "GENRAL",
+      "label": "TAX_RETURN_CARRY_OVERS"
+    },
+    {
+      "page": 17,
+      "family": "GENRAL",
+      "label": "TAX_RETURN_CARRY_OVERS"
+    },
+    {
+      "page": 18,
+      "family": "GENRAL",
+      "label": "TAX_RETURN_CARRY_OVERS"
+    },
+    {
+      "page": 19,
+      "family": "GENRAL",
+      "label": "TAX_RETURN_SUMMARY"
+    },
+    {
+      "page": 20,
+      "family": "GENRAL",
+      "label": "TAX_RETURN_SUMMARY"
+    },
+    {
+      "page": 21,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 22,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 23,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 24,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 25,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 26,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 27,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 28,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 29,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 30,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 31,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 32,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 33,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 34,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 35,
+      "family": "GENRAL",
+      "label": "DEPRECIATION_VARIANCE_REPORT"
+    },
+    {
+      "page": 36,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 37,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 38,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 39,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_2"
+    },
+    {
+      "page": 40,
+      "family": "1040",
+      "label": "1040_Schedule_A"
+    },
+    {
+      "page": 41,
+      "family": "1040",
+      "label": "1040_Schedule_A_CHARITABLE_CONTRIBUTIONS_PG_1"
+    },
+    {
+      "page": 42,
+      "family": "1040",
+      "label": "1040_Schedule_A_CHARITABLE_CONTRIBUTIONS_PG_2"
+    },
+    {
+      "page": 43,
+      "family": "1040",
+      "label": "1040_Schedule_A_CHARITABLE_CONTRIBUTIONS_PG_3"
+    },
+    {
+      "page": 44,
+      "family": "1040",
+      "label": "1040_Schedule_A_CHARITABLE_CONTRIBUTIONS_LIMITATION"
+    },
+    {
+      "page": 45,
+      "family": "1040",
+      "label": "1040_Schedule_B"
+    },
+    {
+      "page": 46,
+      "family": "GENRAL",
+      "label": "INTREST_DIVIDEND_SUMMARY"
+    },
+    {
+      "page": 47,
+      "family": "1040",
+      "label": "1040_Schedule_C_PG_1"
+    },
+    {
+      "page": 48,
+      "family": "1040",
+      "label": "1040_Schedule_C_PG_2"
+    },
+    {
+      "page": 49,
+      "family": "1040",
+      "label": "1040_Schedule_D_PG_1"
+    },
+    {
+      "page": 50,
+      "family": "1040",
+      "label": "1040_Schedule_D_PG_2"
+    },
+    {
+      "page": 51,
+      "family": "8949",
+      "label": "8949_PG_1"
+    },
+    {
+      "page": 52,
+      "family": "8949",
+      "label": "8949_PG_2"
+    },
+    {
+      "page": 53,
+      "family": "1040",
+      "label": "1040_Schedule_D_PG_1"
+    },
+    {
+      "page": 54,
+      "family": "1040",
+      "label": "1040_Schedule_D_PG_2"
+    },
+    {
+      "page": 55,
+      "family": "8949",
+      "label": "8949_PG_1"
+    },
+    {
+      "page": 56,
+      "family": "8949",
+      "label": "8949_PG_2" --Till here 
+    },
+    {
+      "page": 57,
+      "family": "1040",
+      "label": "1040_Schedule_E_PG_1"
+    },
+    {
+      "page": 58,
+      "family": "1040",
+      "label": "1040_Schedule_E_PG_2"
+    },
+    {
+      "page": 59,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 60,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 61,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 62,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 63,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 64,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 65,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 66,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 67,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_1"
+    },
+    {
+      "page": 68,
+      "family": "1040",
+      "label": "1040_Schedule_E_STMT_PG_2"
+    },
+    {
+      "page": 69,
+      "family": "3801",
+      "label": "CAL_SCHED_3801_PG_3"
+    },
+    {
+      "page": 70,
+      "family": "1040",
+      "label": "1040_Schedule_F"
+    },
+    {
+      "page": 71,
+      "family": "1040",
+      "label": "1040_Schedule_F"
+    },
+    {
+      "page": 72,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 73,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 74,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 75,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 76,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 77,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 78,
+      "family": "6251",
+      "label": "6251_PFT_LOSS"
+    },
+    {
+      "page": 79,
+      "family": "8582",
+      "label": "Form_8582_Pg_3"
+    },
+    {
+      "page": 80,
+      "family": "8582",
+      "label": "Form_8582_Pg_3"
+    },
+    {
+      "page": 81,
+      "family": "4797",
+      "label": "4797_PG_1"
+    },
+    {
+      "page": 82,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 83,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 84,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 85,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 86,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 87,
+      "family": "6251",
+      "label": "Form_6251_PG_1"
+    },
+    {
+      "page": 88,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 89,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 90,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 91,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 92,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 93,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 94,
+      "family": "ALT_MIN_REPORT",
+      "label": "ALT_MIN_REPORT"
+    },
+    {
+      "page": 95,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 96,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 97,
+      "family": "NOL_DEDUCTUION",
+      "label": "NOL_DEDUCTUION"
+    },
+    {
+      "page": 98,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 99,
+      "family": "6251",
+      "label": "Form_6251_PG_2"
+    },
+    {
+      "page": 100,
+      "family": "4952",
+      "label": "4952"
+    },
+    {
+      "page": 101,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 102,
+      "family": "1040",
+      "label": "1040_Schedule_E_PG_2"
+    },
+    {
+      "page": 103,
+      "family": "8582",
+      "label": "Form_8582_Pg_1"
+    },
+    {
+      "page": 104,
+      "family": "8582",
+      "label": "Form_8582_Pg_2"
+    },
+    {
+      "page": 105,
+      "family": "8582",
+      "label": "Form_8582_Pg_3"
+    },
+    {
+      "page": 106,
+      "family": "8582",
+      "label": "Form_8582_Pg_1"
+    },
+    {
+      "page": 107,
+      "family": "8582",
+      "label": "Form_8582_Pg_1"
+    },
+    {
+      "page": 108,
+      "family": "8582",
+      "label": "Form_8582_Pg_1"
+    },
+    {
+      "page": 109,
+      "family": "8582",
+      "label": "Form_8582_Pg_2"
+    },
+    {
+      "page": 110,
+      "family": "8582",
+      "label": "Form_8582_Pg_3"
+    },
+    {
+      "page": 111,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 112,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 113,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 114,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 115,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 116,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 117,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 118,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 119,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 120,
+      "family": "4562",
+      "label": "4562"
+    },
+    {
+      "page": 121,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 122,
+      "family": "NOL_DEDUCTUION",
+      "label": "NOL_DEDUCTUION"
+    },
+    {
+      "page": 123,
+      "family": "NOL_DEDUCTUION",
+      "label": "NOL_DEDUCTUION"
+    },
+    {
+      "page": 124,
+      "family": "NOL_DEDUCTUION",
+      "label": "NOL_DEDUCTUION_STMT"
+    },
+    {
+      "page": 125,
+      "family": "NOL_DEDUCTUION",
+      "label": "NOL_DEDUCTUION"
+    },
+    {
+      "page": 126,
+      "family": "1040",
+      "label": "1040_Schedule_D_STMT"
+    },
+    {
+      "page": 127,
+      "family": "1040",
+      "label": "1040_Schedule_D_STMT"
+    },
+    {
+      "page": 128,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 129,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 130,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 131,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 132,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 133,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 134,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 135,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 136,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 137,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 138,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 139,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 140,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 141,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 142,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 143,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 144,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 145,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 146,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 147,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 148,
+      "family": "1040",
+      "label": "1040_Main_Pg1"
+    },
+    {
+      "page": 149,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 150,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 151,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 152,
+      "family": "1040",
+      "label": "1040_Main_Pg2"
+    },
+    {
+      "page": 153,
+      "family": "1040",
+      "label": "1040_Schedule_1_PG_1"
+    },
+    {
+      "page": 154,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 155,
+      "family": "1040",
+      "label": "1040_Schedule_D_PG_1"
+    },
+    {
+      "page": 156,
+      "family": "4797",
+      "label": "4797_PG_2"
+    },
+    {
+      "page": 157,
+      "family": "1040",
+      "label": "1040_Schedule_C"
+    },
+    {
+      "page": 158,
+      "family": "1040",
+      "label": "1040_Schedule_F"
+    },
+    {
+      "page": 159,
+      "family": "1040",
+      "label": "1040_Schedule_F"
+    },
+    {
+      "page": 160,
+      "family": "1040",
+      "label": "1040_Schedule_F"
+    },
+    {
+      "page": 161,
+      "family": "1040",
+      "label": "1040_Schedule_F"
+    },
+    {
+      "page": 162,
+      "family": "8582",
+      "label": "Form_8582_Pg_1"
+    },
+    {
+      "page": 163,
+      "family": "Other",
+      "label": "Other"
+    },
+    {
+      "page": 164,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 165,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 166,
+      "family": "STATEMENT",
+      "label": "STATEMENT"
+    },
+    {
+      "page": 167,
+      "family": "6251",
+      "label": "Form_6251_PG_1"
+    },
+    {
+      "page": 168,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_1"
+    },
+    {
+      "page": 169,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_2"
+    },
+    {
+      "page": 170,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_1"
+    },
+    {
+      "page": 171,
+      "family": "3805",
+      "label": "CAL_SCHED_3805V_PG_2"
+    }
+  ]
+}
