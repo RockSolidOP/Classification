@@ -5,7 +5,7 @@
 #   - content.pdf
 #   - 23I_21PALCOACCT_V1_enhanced.json
 
-import json, re
+import json, re, os
 from collections import Counter
 from pathlib import Path
 
@@ -15,9 +15,26 @@ import fitz  # PyMuPDF
 
 PDF_PATH = Path("content.pdf")
 GT_PATH  = Path("23I_21PALCOACCT_V1_enhanced.json")
+# Unknown handling ("Other")
+# Modes:
+#  - per_label (default): compute a per-label acceptance threshold from training scores (quantile)
+#  - global: use a single global threshold for all labels
+OTHER_MODE = os.getenv("OTHER_MODE", "per_label").strip().lower()
+OTHER_THRESHOLD = float(os.getenv("OTHER_THRESHOLD", "0.35"))
+OTHER_Q = float(os.getenv("OTHER_Q", "0.05"))  # quantile for per-label thresholds
+OTHER_MARGIN = float(os.getenv("OTHER_MARGIN", "0.05"))  # require ambiguity to reject
+OTHER_THRESH_CAP = float(os.getenv("OTHER_THRESH_CAP", "0.95"))  # cap too-high thresholds
+OTHER_RESCUE = os.getenv("OTHER_RESCUE", "1").strip() not in {"0", "false", "False"}
+SAME_FAMILY_PENALTY_FACTOR = float(os.getenv("SAME_FAMILY_PENALTY_FACTOR", "0.2"))  # cheaper within family
+PAGE_OVERRIDE_DELTA = float(os.getenv("PAGE_OVERRIDE_DELTA", "0.008"))  # override to per-page top if stronger by delta
+_never_other_env = os.getenv("OTHER_NEVER_OTHER_LABELS", "STATEMENT,STATEMET")
+OTHER_NEVER_OTHER_LABELS = {s.strip().lower() for s in _never_other_env.split(',') if s.strip()}
+OTHER_FALLBACK_TO_STATEMENT = os.getenv("OTHER_FALLBACK_TO_STATEMENT", "1").strip() not in {"0", "false", "False"}
 
 # ----------------- utils -----------------
-STOP = set("""a an and are as at be but by for from has have if in into is it its of on or that the their this to was were will with within without your you they them he she we us our ours not nor than then which such form schedule page pages attachment sequence number date name address city state zip employer identification taxpayer identification social security statement attachment part section table column line""".split())
+# Stopwords: keep common function words, but DO NOT remove
+# label-bearing tokens like 'statement', 'schedule', 'form', 'attachment'.
+STOP = set("""a an and are as at be but by for from has have if in into is it its of on or that the their this to was were will with within without your you they them he she we us our ours not nor than then which such page pages sequence number date name address city state zip employer identification taxpayer identification social security part section table column line""".split())
 
 def tok(text: str):
     text = text.lower()
@@ -134,6 +151,8 @@ with GT_PATH.open("r", encoding="utf-8") as f:
     ann = json.load(f)
 page_gt = {p["page"]: p["label"] for p in ann["pages"]}
 labels = sorted({p["label"] for p in ann["pages"]})
+OTHER_LABEL = next((l for l in labels if str(l).lower()=="other"), "Other")
+GENERIC_STATEMENT_LABEL = next((l for l in labels if str(l).lower() in {"statement", "statemet"}), None)
 
 doc = fitz.open(str(PDF_PATH))
 
@@ -154,6 +173,14 @@ def page_feature_bundles(page):
     grid = grid_occupancy(page, 8, 12)
     draw = draw_density(page, 4, 6)
     return tf, title, font, grid, draw
+
+def base_label(lbl: str) -> str:
+    s = lbl
+    s = re.sub(r"_Pg_\d+.*$", "", s)
+    s = re.sub(r"_STMT$", "", s, flags=re.IGNORECASE)
+    return s
+
+LABEL_FAMILY = {lbl: base_label(lbl) for lbl in labels}
 
 for i in range(doc.page_count):
     lbl = page_gt.get(i+1, None)
@@ -207,28 +234,63 @@ def page_scores(page, alpha=0.65):
 P = doc.page_count
 score_mat = np.zeros((P, len(labels)), dtype=float)
 rows = []
+top_scores = []
+second_scores = []
+label_self_scores = {lbl: [] for lbl in labels}
 for i in range(P):
     s = page_scores(doc.load_page(i), alpha=0.65)
-    for j,lbl in enumerate(labels):
-        score_mat[i,j] = s[lbl]
-    best = labels[int(np.argmax(score_mat[i]))]
-    rows.append({"page": i+1, "baseline_best": best, **{lbl: s[lbl] for lbl in labels}})
+    # fill row scores
+    row = np.array([s[lbl] for lbl in labels], dtype=float)
+    score_mat[i] = row
+    # best and second-best
+    best_idx = int(np.argmax(row))
+    best = labels[best_idx]
+    top = float(row[best_idx])
+    tmp = row.copy()
+    tmp[best_idx] = -np.inf
+    second = float(np.max(tmp)) if np.isfinite(np.max(tmp)) else -np.inf
+    # collect training self-scores
+    gt_lbl = page_gt.get(i+1, None)
+    if gt_lbl in labels:
+        label_self_scores[gt_lbl].append(float(s.get(gt_lbl, 0.0)))
+    # placeholder; final thresholding applied after per-label thresholds computed
+    thr_label = best
+    rows.append({
+        "page": i+1,
+        "baseline_best": best,
+        "top_score": top,
+        "second_best_score": second,
+        "threshold_used": None,
+        "thresholded_label": None,
+        **{lbl: s[lbl] for lbl in labels}
+    })
+    top_scores.append(top)
+    second_scores.append(second)
 pd.DataFrame(rows).to_csv("page_label_scores.csv", index=False)
 
 # ----------------- sequence smoothing (Viterbi-ish) -----------------
-def smooth_labels(score_mat, labels, switch_penalty=0.05):
+def smooth_labels(score_mat, labels, switch_penalty=0.05, same_family_factor=SAME_FAMILY_PENALTY_FACTOR):
     T, K = score_mat.shape
     dp = np.zeros((T, K), dtype=float)
     back = np.zeros((T, K), dtype=int)
     dp[0] = score_mat[0]           # no penalty for start
     back[0] = -1
     for t in range(1, T):
+        prev = dp[t-1]
         for k in range(K):
-            cont   = dp[t-1, k]                 # keep label k
-            switch = dp[t-1] - switch_penalty   # switch from any j!=k
+            cont = prev[k]  # keep label k
+            # Pair-specific penalty: cheaper (or free) to switch within same family
+            family_k = LABEL_FAMILY[labels[k]]
+            penalty_vec = np.where(
+                np.array([LABEL_FAMILY[labels[j]] for j in range(K)]) == family_k,
+                switch_penalty * same_family_factor,
+                switch_penalty,
+            )
+            switch = prev - penalty_vec
             if np.max(switch) > cont:
-                dp[t, k] = score_mat[t, k] + np.max(switch)
-                back[t, k] = int(np.argmax(dp[t-1] - switch_penalty))
+                jstar = int(np.argmax(switch))
+                dp[t, k] = score_mat[t, k] + switch[jstar]
+                back[t, k] = jstar
             else:
                 dp[t, k] = score_mat[t, k] + cont
                 back[t, k] = k
@@ -242,8 +304,63 @@ def accuracy(pred_seq):
     gt = [page_gt.get(i+1, None) for i in range(P)]
     return float(np.mean([pred_seq[i] == gt[i] for i in range(P)]))
 
-# baseline (greedy per page)
-baseline_pred = [labels[i] for i in np.argmax(score_mat, axis=1)]
+# build per-label thresholds (if enabled)
+per_label_threshold = {}
+if OTHER_MODE == "per_label":
+    for lbl, arr in label_self_scores.items():
+        if len(arr) >= 1:
+            try:
+                thr = float(np.quantile(np.array(arr, dtype=float), OTHER_Q))
+                per_label_threshold[lbl] = min(thr, OTHER_THRESH_CAP)
+            except Exception:
+                per_label_threshold[lbl] = min(OTHER_THRESHOLD, OTHER_THRESH_CAP)
+        else:
+            per_label_threshold[lbl] = min(OTHER_THRESHOLD, OTHER_THRESH_CAP)
+else:
+    # global mode uses OTHER_THRESHOLD for all labels
+    per_label_threshold = {lbl: min(OTHER_THRESHOLD, OTHER_THRESH_CAP) for lbl in labels}
+
+def threshold_for(label: str) -> float:
+    return per_label_threshold.get(label, OTHER_THRESHOLD)
+
+def apply_other_rule(page_idx: int, pred_label: str) -> str:
+    """Decide whether to map pred_label -> OTHER based on the predicted
+    label's own score and its separation from the next best alternative
+    on this page.
+    """
+    if pred_label not in labels:
+        return OTHER_LABEL
+    # Never demote certain labels (e.g., STATEMENT) to Other
+    if pred_label.strip().lower() in OTHER_NEVER_OTHER_LABELS:
+        return pred_label
+    pred_idx = labels.index(pred_label)
+    row = score_mat[page_idx]
+    pred_score = float(row[pred_idx])
+    # best alternative excluding the predicted label
+    alt = np.max(np.delete(row, pred_idx)) if row.size > 1 else -np.inf
+    thr = threshold_for(pred_label)
+    if (pred_score < thr) and (alt > -np.inf) and ((pred_score - alt) < OTHER_MARGIN):
+        # Try rescue to a better-supported alternative instead of Other
+        if OTHER_RESCUE:
+            row = score_mat[page_idx]
+            best_idx = int(np.argmax(row))
+            best_lbl = labels[best_idx]
+            best_score = float(row[best_idx])
+            alt2 = float(np.max(np.delete(row, best_idx))) if row.size > 1 else -np.inf
+            if (best_lbl != pred_label) and (best_score >= threshold_for(best_lbl)) and (best_score - alt2 >= OTHER_MARGIN):
+                return best_lbl
+        # Fallback to generic STATEMENT (if present and reasonably supported)
+        if OTHER_FALLBACK_TO_STATEMENT and GENERIC_STATEMENT_LABEL is not None:
+            st_idx = labels.index(GENERIC_STATEMENT_LABEL)
+            st_score = float(score_mat[page_idx, st_idx])
+            if st_score >= threshold_for(GENERIC_STATEMENT_LABEL):
+                return GENERIC_STATEMENT_LABEL
+        return OTHER_LABEL
+    return pred_label
+
+# baseline (greedy per page) with Other rule
+baseline_raw = [labels[i] for i in np.argmax(score_mat, axis=1)]
+baseline_pred = [apply_other_rule(i, baseline_raw[i]) for i in range(P)]
 baseline_acc = accuracy(baseline_pred)
 
 # sweep penalties (includes 0.05 which gave ~84.4% on your file)
@@ -251,26 +368,82 @@ penalties = [0.00, 0.01, 0.02, 0.03, 0.05]
 summary = []
 for pen in penalties:
     seq = smooth_labels(score_mat, labels, switch_penalty=pen)
-    acc = accuracy(seq)
+    # apply Other rule after smoothing using per-page, per-label scores
+    seq_thr = [apply_other_rule(i, seq[i]) for i in range(P)]
+    acc = accuracy(seq_thr)
     summary.append({
         "switch_penalty": pen,
         "accuracy": round(acc, 3),
-        "num_switches": sum(1 for i in range(1,P) if seq[i]!=seq[i-1])
+        "num_switches": sum(1 for i in range(1,P) if seq_thr[i]!=seq_thr[i-1])
     })
 sum_df = pd.DataFrame(summary).sort_values("accuracy", ascending=False)
 sum_df.to_csv("seq_smoothing_summary.csv", index=False)
 
 best_pen = float(sum_df.iloc[0]["switch_penalty"])
-best_seq = smooth_labels(score_mat, labels, switch_penalty=best_pen)
+best_seq_raw = smooth_labels(score_mat, labels, switch_penalty=best_pen)
+best_seq_raw_override = []
+for i in range(P):
+    row = score_mat[i]
+    pred_raw = best_seq_raw[i]
+    pred_idx = labels.index(pred_raw) if pred_raw in labels else None
+    top_idx = int(np.argmax(row))
+    top_lbl = labels[top_idx]
+    if pred_idx is not None:
+        diff = float(row[top_idx] - row[pred_idx])
+    else:
+        diff = float('inf')
+    if (top_lbl != pred_raw) and (diff >= PAGE_OVERRIDE_DELTA):
+        best_seq_raw_override.append(top_lbl)
+    else:
+        best_seq_raw_override.append(pred_raw)
+best_seq = [apply_other_rule(i, best_seq_raw_override[i]) for i in range(P)]
 best_acc = accuracy(best_seq)
 
+# Update CSV with thresholded labels and thresholds used
+try:
+    df_scores = pd.read_csv("page_label_scores.csv")
+    thr_used = [threshold_for(baseline_raw[i]) for i in range(P)]
+    thr_label = [apply_other_rule(i, baseline_raw[i]) for i in range(P)]
+    df_scores["threshold_used"] = thr_used
+    df_scores["thresholded_label"] = thr_label
+    df_scores.to_csv("page_label_scores.csv", index=False)
+except Exception:
+    pass
+
 # write evals
-pd.DataFrame({
-    "page": np.arange(1, P+1),
-    "predicted_label": best_seq,
-    "ground_truth_label": [page_gt.get(i+1, None) for i in range(P)],
-    "match": [best_seq[i] == page_gt.get(i+1, None) for i in range(P)]
-}).to_csv("eval_seq_smoothing_best.csv", index=False)
+eval_rows = []
+for i in range(P):
+    pred_raw = best_seq_raw_override[i]
+    pred = best_seq[i]
+    gt = page_gt.get(i+1, None)
+    pred_idx = labels.index(pred_raw) if pred_raw in labels else None
+    row_scores = score_mat[i]
+    pred_score = float(row_scores[pred_idx]) if pred_idx is not None else float("nan")
+    alt_score = float(np.max(np.delete(row_scores, pred_idx))) if pred_idx is not None and row_scores.size>1 else float("nan")
+    # determine if rescue changed the label
+    final_label = best_seq[i]
+    rescued_to = final_label if (final_label != pred_raw and (final_label == labels[int(np.argmax(row_scores))] or (GENERIC_STATEMENT_LABEL and final_label == GENERIC_STATEMENT_LABEL))) else (final_label if (final_label != pred_raw) else "")
+    override_applied = (best_seq_raw[i] != best_seq_raw_override[i])
+    top_idx = int(np.argmax(row_scores))
+    top_lbl = labels[top_idx]
+    top_score = float(row_scores[top_idx])
+    eval_rows.append({
+        "page": i+1,
+        "predicted_label": final_label,
+        "predicted_label_raw": pred_raw,
+        "page_top_label": top_lbl,
+        "ground_truth_label": gt,
+        "match": final_label == gt,
+        "switch_penalty": best_pen,
+        "predicted_label_score": pred_score,
+        "best_alt_score": alt_score,
+        "margin": (pred_score - alt_score) if (not np.isnan(pred_score) and not np.isnan(alt_score)) else float("nan"),
+        "threshold_used": threshold_for(pred_raw) if pred_raw in labels else OTHER_THRESHOLD,
+        "page_top_score": top_score,
+        "page_override_applied": override_applied,
+        "other_rescue_to": rescued_to,
+    })
+pd.DataFrame(eval_rows).to_csv("eval_seq_smoothing_best.csv", index=False)
 
 pd.DataFrame([
     {"page": i+1, "ground_truth_label": page_gt.get(i+1, None), "predicted_label": best_seq[i]}
