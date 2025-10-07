@@ -46,7 +46,7 @@ page,predicted_label,ground_truth_label,match
 45,1040_Schedule_E_STMT_PG_2,1040_Schedule_E_STMT_PG_2,True
 46,1040_Schedule_E_STMT_PG_1,1040_Schedule_E_STMT_PG_1,True
 47,1040_Schedule_E_STMT_PG_2,1040_Schedule_E_STMT_PG_2,True
-48,1040_Schedule_F,1040_Schedule_F,True
+48,1040_Schedule_F_PG_1,1040_Schedule_F_PG_1,True
 49,4797_PG_1,4797_PG_1,True
 50,4797_PG_2,4797_PG_2,True
 51,4797_PG_1,4797_PG_1,True
@@ -65,7 +65,7 @@ page,predicted_label,ground_truth_label,match
 64,Form_8582_Pg_1,Form_8582_Pg_1,True
 65,Form_8582_Pg_2,Form_8582_Pg_2,True
 66,Form_8582_Pg_3,Form_8582_Pg_3,True
-67,4562,4562,True
+67,4562_PG_1,4562_PG_1,True
 68,1040_Schedule_A_NET_LOSS_STMT,1040_Schedule_A_NET_LOSS_STMT,True
 69,ALT_Tax_Loss_WORKSHEET,ALT_Tax_Loss_WORKSHEET,True
 70,NOL_DEDUCTUION,NOL_DEDUCTUION,True
